@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KM calculator</title>
+  <script src="saikyou.js"></script>
+</head>
+<body>
+  <h1>Game Statistics</h1>
+
+  <label for="currKM">Current KM:</label>
+  <input type="number" id="currKM" name="currKM" value="0">
+
+  <label for="baseIncrement">Base Increment:</label>
+  <input type="number" id="baseIncrement" name="baseIncrement" value="12">
+
+  <label for="bonuses">Bonuses:</label>
+  <input type="number" id="bonuses" name="bonuses" value="2">
+
+  <button onclick="startGame()">Calculate</button>
+
+  <p id="result"></p>
+  <div id="log"></div>
+</body>
+</html>
